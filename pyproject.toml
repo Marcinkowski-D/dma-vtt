@@ -5,12 +5,20 @@ description = "Add your description here"
 requires-python = ">=3.11"
 dependencies = [
     "flask>=2.0.0",
+    "flask-sqlalchemy>=3.0.0",
+    "flask-socketio>=5.0.0",
     "pillow>=9.0.0",
     "werkzeug>=2.0.0",
     "python-engineio>=4.0.0",
     "python-socketio>=5.0.0",
     "eventlet>=0.30.0",
-    "requests"
+    "requests",
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "passlib[argon2]>=1.7.4",
+    "pyjwt>=2.6.0",
+    "flask-cors>=3.0.0",
+    "python-dotenv>=1.1.1",
 ]
 
 [build-system]
