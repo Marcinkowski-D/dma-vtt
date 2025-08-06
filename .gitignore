@@ -4,3 +4,4 @@ data/cache
 .venv
 .idea
 __pycache__
+.env
